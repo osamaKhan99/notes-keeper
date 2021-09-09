@@ -1,0 +1,31 @@
+.note-item{
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 80%;
+}
+.item-title, .item-description{
+    outline: none;
+    padding: 10px;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.empty-title{
+    margin: 30px auto;
+    text-align: center;
+}
+.home-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
